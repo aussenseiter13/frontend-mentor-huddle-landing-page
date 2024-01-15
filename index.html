@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Huddle</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        backgroundImage: {
+                            "mobile-image":
+                                "url('./resources/images/bg-mobile.svg')",
+                            "desktop-image":
+                                "url('./resources/images/bg-desktop.svg')",
+                        },
+                    },
+                },
+            };
+        </script>
+    </head>
+    <body
+        class="min-h-screen w-full bg-mobile-image bg-contain bg-no-repeat lg:bg-desktop-image lg:bg-cover"
+    >
+        <header>
+            <img
+                src="./huddle-landing-page-with-single-introductory-section-master/images/logo.svg"
+                alt="Logo"
+            />
+        </header>
+        <main></main>
+        <footer>
+            <ul>
+                <li>
+                    <a href=""><img src="" alt="" /></a>
+                </li>
+                <li>
+                    <a href=""><img src="" alt="" /></a>
+                </li>
+                <li>
+                    <a href=""><img src="" alt="" /></a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
